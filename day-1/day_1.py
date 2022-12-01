@@ -25,6 +25,6 @@ def create_numbers(imported_food_items):
 
 
 with open("day_1.txt", "r", encoding="utf8") as file:
-    content = file.read()
-    max_calories = create_numbers(content)
+    imported_content = file.read()
+    max_calories = create_numbers(imported_content)
     print(max_calories)
